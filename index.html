@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prakerja</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+   @import url('https://fonts.googleapis.com/css2?family=Akshar:wght@500&family=Dela+Gothic+One&family=Koulen&family=Lato:ital@1&family=Monoton&family=Montserrat:ital,wght@0,400;0,500;1,600&family=Orbitron:wght@700&family=Permanent+Marker&family=Raleway:wght@600&family=Red+Hat+Mono:wght@500&family=Roboto+Condensed:wght@300;700&family=Rubik:wght@400;500;600&family=Smooch+Sans&family=Ubuntu:wght@500&display=swap');
+      body {
+           background-color: #4f8fda;
+           text-rendering: optimizeLegibility!important;
+            -webkit-font-smoothing: antialiased!important;
+            height: 800px;
+            color: #142b72;
+            font-family: Rubik,sans-serif;
+            font-size: 14px;
+            text-align: left;
+      }
+
+      input,
+      input::placeholder{
+          font-size:12px;
+       
+      }
+
+  
+
+    </style>
+</head>
+<body>
+  <div class="logo mt-[40px] ml-[109px]"><span><img src="https://dashboard.prakerja.go.id/assets/v2/images/logo-prakerja.png" alt="logo" class="w-[145px] h-[45px]"></span></div>
+
+  <div class="hiasan absolute ml-[415px] mt-[40px] z-0"><img src="https://dashboard.prakerja.go.id/assets/v2/images/auth-bg.svg" alt="" >
+</div>
+<div class="hiasanorang absolute ml-[195px] mt-[220px]"><img src="https://dashboard.prakerja.go.id/assets/v2/images/people-sm.png" alt="" class="h-[377px] w-[1000px]"></div>
+
+  <div class="flex" style="display:flex">
+ <div class="card w-[420px] h-[611px] bg-slate-100 rounded-[10px]  items-center justify-center z-10" style="align-items:center; margin:0 auto;padding: 45px 40px; margin-top : 40px;">
+<div class="headertext">
+    <h1 class="text-4xl font-medium">Masuk Akun</h1>
+</div>
+<p class="text-[16px] leading-[24px] font-normal mt-[14px]">Buat kamu yang sudah terdaftar, silakan masuk ke akunmu.</p>
+<div class="form">
+
+<form action="" method="post">
+<label class="form-label absolute mt-[14px] ml-[18px] text-[10px] bg-slate-100 " style="color:#82aaca">Alamat E-mail</label>
+<input type="email" name="id" class="w-[338px] h-[42px] rounded-[4px] mt-[20px] pl-[16px]" style="border : 1px solid #a8c6df;background-color:#e8f0fe">
+<label for="id" class="form-label absolute mt-[14px] ml-[18px] text-[10px] bg-slate-100 " style="color:#82aaca">Password</label>
+<input type="password" name="id" class="w-[338px] h-[42px] rounded-[4px] mt-[20px] pl-[16px]" style="border : 1px solid #a8c6df;background-color:#e8f0fe">
+</form>
+</div>
+<p class="hint mt-[20px]">Masukkan Angka yang kamu lihat</p>
+<div class="captcha flex">
+    <img src="captcha.png" alt="" class="w-[124px] h-[62px]">
+    <div class="form">
+    <form action="">
+        <input type="text" class="rounded-[4px] mt-[10px] ml-[15px] h-[32px] w-[175px] pl-[14px]" style="border : 1px solid  #a8c6df " placeholder="Ketik di sini">
+      
+    </form>
+    </div>
+    <div class="iconrepeat mt-[12px] ml-[5px]"style="display:inline-block" >
+        <img src="https://dashboard.prakerja.go.id/assets/v2/images/icon-refresh.png" alt="" style="height:26px;width:23px;display :inline">
+        </div>
+
+     
+</div>
+<p  class="text-[10px]" style="color:#82aaca">Masukkan karakter (tanpa spasi) yang ditunjukkan pada gambar</p>
+<div class="button mt-[15px]">
+    <button class="border-2 border-bg-sky-900 h-[42px] w-[338px] rounded-full text-slate-100 font-bold" style="background-color: #4f8fda;">Masuk</button>
+</div>
+
+
+<div class="rememberandlupa mt-[20px]">
+<input type="checkbox" name="" id="">
+<p class="inline absolute" style="margin-top:-1px; margin-left:8px;">Ingat saya</p>
+<div class="lupa" style="float:right">
+    <a href="">
+        <p style="color:#4f8fda">Lupa password?</p>
+    </a>
+</div>
+
+</div>
+
+<hr class="mt-[20px]">
+<div class="tidakadaakun mt-[25px]">
+    <p>Belum punya akun?<span style="color:#4f8fda" class="pl-[5px]"><a href="">Daftarkan Dirimu
+            </a>
+        </span>
+    </p>
+</div>
+
+
+</div>
+</div>
+
+
+</body>
+</html>
